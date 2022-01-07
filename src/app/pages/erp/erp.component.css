@@ -1,0 +1,19 @@
+.container{
+    box-sizing: border-box;
+}
+
+.cmpInfo{
+    height: 100px;
+}
+.sysLogo{
+    height: 100px;
+    width: 100px;
+    object-fit:cover;
+    position:absolute;
+}
+.SysInfo{
+    font-size:x-large;
+    text-align: center;
+    margin-top: 2%
+
+}
