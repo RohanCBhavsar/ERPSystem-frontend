@@ -1,0 +1,27 @@
+{
+    "billNo": "1234567890",
+    "date": "05/01/2022",
+    "Name":"Mohit Chaudhari",
+    "amount": 2000,
+    "products": [
+      {
+        "productName": "cement",
+        "price": 250,
+        "quantity": 2
+      },
+      {
+        "productName": "abdjjahssc",
+        "price": 750,
+        "quantity": 1
+      },
+      {
+        "productName": "Metal",
+        "price": 375,
+        "quantity": 2
+      }
+    ],
+    "paid": true,
+    "paymentMethod": "cash",
+    "paidAmount": 2100,
+    "change":100
+  }
