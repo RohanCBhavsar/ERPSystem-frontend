@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { PreviewReceiptComponent } from 'src/app/components/preview-receipt/preview-receipt.component';
 
 
@@ -9,10 +10,12 @@ import { PreviewReceiptComponent } from 'src/app/components/preview-receipt/prev
 })
 export class ErpComponent implements OnInit {
 
-  constructor() {}  
+  constructor(
+    private modalService: NgbModal
+  ) {}  
   
   openModal() {
-    // const modalRef = this.modalService.open(PreviewReceiptComponent);
+    const modalRef = this.modalService.open(PreviewReceiptComponent);
     // modalRef.componentInstance.id = 10;
     // modalRef.result.then((result) => {
     //   console.log(result);
