@@ -1,4 +1,116 @@
-<p>erp works!</p>
+<div class="container">
+  <div class="row">
+    <nav class=" navbar navbar-expand-lg navbar-dark bg-dark rounded-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Report</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Report</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Report</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Help</a>
+            </li>
 
-<button (click)="openModal()" class="btn btn-default">Open Modal</button>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
 
+    <div class="cmpInfo bg-primary">
+      <div class=" col-md-4">
+        <img class="sysLogo"
+          src="https://image.shutterstock.com/image-vector/button-internet-erp-icon-600w-233562190.jpg" alt="Logo">
+      </div>
+      <div class="SysInfo col-md-8 align-middle">
+        <h1 class="title">ROmohjbdcadhda</h1>
+      </div>
+    </div>
+    <hr>
+
+    <div class="mainContent ">
+      <div class="input-group mb-3">
+        <label class="input-group-text" for="">Name : </label>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+        <span class="input-group-text">Contact No :</span>
+        <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+      </div>
+      <div class="input-group mb-3">
+        <label class="input-group-text" for="">ProductCode : </label>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+        <span class="input-group-text">Discription :</span>
+        <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+      </div>
+    </div>
+
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">SR.NO</th>
+          <th scope="col">Discription</th>
+          <th scope="col">QTY</th>
+          <th scope="col">Rate</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Larry</td>
+          <td>the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+
+    <div>
+      <div class="amounts">
+        <label for="">Subtotal :</label>
+        <input type="text" class="amtInput">
+      </div>
+      <div class="amounts">
+        <label for="">Discount :</label>
+        <input type="text" class="amtInput">
+      </div>
+      <div class="amounts">
+        <label for="">Total :</label>
+        <input type="text" class="amtInput">
+      </div>
+    </div>
+
+
+
+  </div>
+  <div class="printBtn">
+    <button class="btn btn-primary " (click)="openModal()">Print Receipt</button>
+  </div>
+  <h2 class="align-middle">.....Thankyou..... </h2>
+
+</div>
